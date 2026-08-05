@@ -13,3 +13,6 @@ export PATH="$HOME/.local/bin:$PATH"
 . "$HOME/.local/share/../bin/env"
 alias qc='source ~/venvs/qc/bin/activate'
 alias dot='git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+export OMP_NUM_THREADS=8
+export OPENBLAS_NUM_THREADS=8
+export MKL_NUM_THREADS=8
